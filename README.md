@@ -35,3 +35,8 @@ func main() {
 }
 
 ```
+#### result
+```
+before: map[A:1 B:map[age:20] C:c D:0.99]
+after: map[C:c D:0.99]
+```

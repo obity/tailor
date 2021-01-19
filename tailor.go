@@ -31,6 +31,14 @@ func ClipMore(keys []string, results []Object) []Object {
 	return clipeds
 }
 
+/* 增加合并数据函数 */
+func Merge(first, second Object) Object {
+	for k, v := range second {
+		first[k] = v
+	}
+	return first
+}
+
 /* 隐藏名字 */
 func HideName(key string, result Object) {
 	if nil == result {

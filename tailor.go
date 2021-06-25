@@ -1,3 +1,14 @@
+/* ====================================================
+#   Copyright (C) 2021  All rights reserved.
+#
+#   Author        : wander
+#   Email         : wander@email.cn
+#   File Name     : tailor.go
+#   Last Modified : 2021-06-25 15:08
+#   Describe      :
+#
+# ====================================================*/
+
 package tailor
 
 import (
